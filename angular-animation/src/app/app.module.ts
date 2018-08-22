@@ -3,19 +3,23 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app-routing.module';
+import { CollectionRoutingModule } from './app-routing.module';
 
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { PageNotFoundComponentComponent } from './page-not-found/page-not-found-component.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    PageNotFoundComponentComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    CollectionRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

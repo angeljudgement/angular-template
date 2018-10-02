@@ -1,0 +1,25 @@
+/* Navigation container */
+.navigation-container {
+  width: 300px;
+}
+.navigation-container .content {
+  height: 100%;
+  border: 1px solid black;
+}
+
+/* Collection container */
+.collection-container {
+  width: calc(100% - 300px);
+  border: 1px solid black;
+}
+.navigation-bar {
+  height: 30px;
+  border: 1px solid black;
+}
+.container-content {
+  height: calc(100% - 30px);
+  border: 1px solid black;
+}
+.body-container .row {
+  height: 100%;
+}

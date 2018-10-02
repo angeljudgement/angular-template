@@ -3,23 +3,24 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { CollectionRoutingModule } from './app-routing.module';
 
 import { LandingPageComponent } from './landing-page/landing-page.component';
-import { PageNotFoundComponentComponent } from './page-not-found/page-not-found-component.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import {AppRoutingModule} from './app-routing.module';
+import {CollectionModule} from './collection/collection.module';
+import { CurrentSeasonComponent } from './collection/current-season/current-season.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
-    PageNotFoundComponentComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
-    CollectionRoutingModule
+    CollectionModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

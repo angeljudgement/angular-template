@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+.font-roboto {
+  font-family: Roboto, sans-serif;
+}
+
+.font-responsive-14 {
+  font-size: 0.875rem;
+}
+
+.font-responsive-16 {
+  font-size: 1rem;
+}
+
+.font-responsive-24 {
+  font-size:  1.5rem;
+}
+
+.font-responsive-32 {
+  font-size: 2rem;
+}

@@ -1,12 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import "assets/style/TypoFont/typo.css";
+@import "assets/style/Color/color.css";
+
 html {
   height: 100%;
 }
 body {
   height: 100%;
-}
-header {
-  height: 100px;
 }
 body .container-fluid{
   height: 100%;
@@ -16,9 +16,13 @@ body .container-fluid{
   flex-direction: column;
   height: calc(100% - 100px - 100px);
 }
-footer {
-  height: 100px;
-}
 .flex-1 {
   flex: 1 1 auto;
+}
+* {
+  font-family: Open-sans, sans-serif;
+  font-size: 1rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }

@@ -6,13 +6,16 @@ import {SpringSeasonComponent} from './spring-season/spring-season.component';
 import {SummerSeasonComponent} from './summer-season/summer-season.component';
 import {FallSeasonComponent} from './fall-season/fall-season.component';
 import {CurrentSeasonComponent} from './current-season/current-season.component';
-import {RouterModule} from '@angular/router';
 import {CollectionRoutingModule} from './collection-routing.module';
+import {HeaderComponent} from '../common-component/header/header.component';
+import {FooterComponent} from '../common-component/footer/footer.component';
+import {FormModule} from '../common-component/form-manipulation/form.module';
 
 @NgModule({
   imports: [
     CommonModule,
-    CollectionRoutingModule
+    CollectionRoutingModule,
+    FormModule
   ],
   declarations:
     [CollectionMainPageComponent,
@@ -21,7 +24,10 @@ import {CollectionRoutingModule} from './collection-routing.module';
       WinterSeasonComponent,
       SpringSeasonComponent,
       SummerSeasonComponent,
-      FallSeasonComponent]
+      FallSeasonComponent,
+      HeaderComponent,
+      FooterComponent,
+    ]
 })
 export class CollectionModule {
 }
